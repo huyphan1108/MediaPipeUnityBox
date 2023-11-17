@@ -1960,7 +1960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733900949614318808, guid: d03fe16a35db93a4faf6f5640f79ac1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.94
+      value: -1.61
       objectReference: {fileID: 0}
     - target: {fileID: 2733900949614318808, guid: d03fe16a35db93a4faf6f5640f79ac1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3903,7 +3903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733900949614318808, guid: d03fe16a35db93a4faf6f5640f79ac1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.94
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 2733900949614318808, guid: d03fe16a35db93a4faf6f5640f79ac1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5056,7 +5056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   server: {fileID: 1900641493}
-  timer: 0
+  timer: 5
   calibrationKey: 99
   text: {fileID: 627780137}
 --- !u!1 &1611591631 stripped

@@ -31,7 +31,8 @@ public class PlayerManager : MonoBehaviour
                 return true;
             case "Danger":
                 lossText.SetActive(true);
-                isPaused = !isPaused;
+                isPaused = true;
+                //isPaused = !isPaused;
                 PauseGame();
                 return true;
             default:
@@ -46,7 +47,8 @@ public class PlayerManager : MonoBehaviour
         if (cubeCount >= 9)
         {
             winText.SetActive(true);
-            isPaused = !isPaused;
+            //isPaused = !isPaused;
+            isPaused = true;
             PauseGame();
         }
     }
@@ -57,7 +59,7 @@ public class PlayerManager : MonoBehaviour
         {
             Time.timeScale = 0f;
         }
-        //else Time.timeScale = 1;
+        else Time.timeScale = 1;
     }
 
 }
