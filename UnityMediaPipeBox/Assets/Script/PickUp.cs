@@ -10,6 +10,9 @@ public class PickUp : MonoBehaviour
     public Transform spawnPoint;
     //public List<Object> cubes = new List<Object>();
     public GameObject cubes;
+
+    private Rigidbody rb;
+    private Vector3 screenBound;
     
     //private int spawnIndex = 0;
 
@@ -17,6 +20,14 @@ public class PickUp : MonoBehaviour
     private void Start()
     {
         pickupText.text = "";
+    }
+
+    private void Update()
+    {
+        if (transform.position.x  < screenBound.x)
+        {
+
+        }
     }
 
     private void OnTriggerEnter(Collider collider)
@@ -28,7 +39,6 @@ public class PickUp : MonoBehaviour
             StartCoroutine(SetText());
             //Instantiate(cubes[i], spawnPoint.position, spawnPoint.rotation);
         }
-        //OnTriggerEnter(collider);
     }
     private void RemoveRespawn()
     {
