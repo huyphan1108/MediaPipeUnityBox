@@ -8,5 +8,8 @@
 7. Run main.py uisng Python and "test" scene in Unity.
 8. You will have to follow the pose of the avatar using webcam for calibration.
 
-## Credits
-[Unity Python MediaPipe Avatar](https://github.com/ganeshsar/UnityPythonMediaPipeAvatar/tree/main) by [ganeshsar](https://github.com/ganeshsar)
+
+## Demo
+![Demo](gif/MediaPipeBox_gif.gif)
+
+Watch Demo Video [here](https://www.youtube.com/watch?v=99d5uq7Xt_w)
