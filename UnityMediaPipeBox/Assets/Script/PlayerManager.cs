@@ -43,8 +43,8 @@ public class PlayerManager : MonoBehaviour
 
     void SetCountText()
     {
-        countText.text = "Cubes picked up " + cubeCount.ToString();
-        if (cubeCount >= 9)
+        countText.text = "Cubes picked up " + cubeCount.ToString() + " cubes";
+        if (cubeCount >= 10)
         {
             winText.SetActive(true);
             //isPaused = !isPaused;
