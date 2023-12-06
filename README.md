@@ -7,9 +7,13 @@
 6. Download and clone this respository.
 7. Run main.py uisng Python and "test" scene in Unity.
 8. You will have to follow the pose of the avatar using webcam for calibration.
+9. After you successfully run the game, you can use "Y" to switch to respawnable cubes and "X" to switch back to stationary cubes.
 
 
 ## Demo
 ![Demo](gif/MediaPipeBox_gif.gif)
 
 Watch Demo Video [here](https://www.youtube.com/watch?v=99d5uq7Xt_w)
+
+## Credit
+[Unity Python MediaPipe Avatar](https://github.com/ganeshsar/UnityPythonMediaPipeAvatar/tree/main/UnityMediaPipeAvatar)
